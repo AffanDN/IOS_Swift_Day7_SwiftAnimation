@@ -21,11 +21,15 @@ struct ContentView: View {
                 .font(.system(size: 100))
                 .scaleEffect(sizeChanged ? 1.0 : 0.5)
         }
-        .animation(.default, value: colorChange)
-        .animation(.easeInOut, value: sizeChanged)
+        // Implicit Animation
+//        .animation(.bouncy, value: colorChange)
+//        .animation(.easeInOut, value: sizeChanged)
         .onTapGesture {
-            colorChange.toggle()
-            sizeChanged.toggle()
+            // Explicit Animation = hsrus didalam modifier
+            withAnimation(.spring(.bouncy, blendDuration: 1.0)) {
+                colorChange.toggle()
+                sizeChanged.toggle()
+            }
         }
     }
 }
