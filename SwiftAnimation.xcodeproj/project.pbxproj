@@ -14,6 +14,7 @@
 		3E5CEB432BD6170C00E2ABD7 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5CEB422BD6170C00E2ABD7 /* LoadingIndicator.swift */; };
 		3E5CEB452BD61FCA00E2ABD7 /* MorphingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5CEB442BD61FCA00E2ABD7 /* MorphingAnimation.swift */; };
 		3E5CEB472BD635E000E2ABD7 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5CEB462BD635E000E2ABD7 /* TransitionView.swift */; };
+		3E5CEB492BD63B8D00E2ABD7 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5CEB482BD63B8D00E2ABD7 /* FancyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		3E5CEB422BD6170C00E2ABD7 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		3E5CEB442BD61FCA00E2ABD7 /* MorphingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingAnimation.swift; sourceTree = "<group>"; };
 		3E5CEB462BD635E000E2ABD7 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
+		3E5CEB482BD63B8D00E2ABD7 /* FancyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				3E5CEB422BD6170C00E2ABD7 /* LoadingIndicator.swift */,
 				3E5CEB442BD61FCA00E2ABD7 /* MorphingAnimation.swift */,
 				3E5CEB462BD635E000E2ABD7 /* TransitionView.swift */,
+				3E5CEB482BD63B8D00E2ABD7 /* FancyButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				3E5CEB432BD6170C00E2ABD7 /* LoadingIndicator.swift in Sources */,
 				3E5CEB342BD6128C00E2ABD7 /* ContentView.swift in Sources */,
 				3E5CEB452BD61FCA00E2ABD7 /* MorphingAnimation.swift in Sources */,
+				3E5CEB492BD63B8D00E2ABD7 /* FancyButton.swift in Sources */,
 				3E5CEB472BD635E000E2ABD7 /* TransitionView.swift in Sources */,
 				3E5CEB322BD6128C00E2ABD7 /* SwiftAnimationApp.swift in Sources */,
 			);
